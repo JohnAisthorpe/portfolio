@@ -1,9 +1,14 @@
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import styled from 'styled-components';
+import './App.scss'
+import Layout from './components/Layout'
 
+ 
 function App() {
   return (
-    <p>Thanks for visiting, portfolio site coming soon...</p>
-    
+    <Routes>  
+    <Route path="/" element={<Layout/>} /> 
+  </Routes>
   );
 }
 
