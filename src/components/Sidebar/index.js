@@ -7,7 +7,7 @@ import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
  const SideBar = () => {
     return (
     <div className='nav-bar'>
-    <Link className='logo' to='/portfolio'>
+    <Link className='logo' to='/'>
         <img src={LogoJ} alt="logo"/>
     </Link>
 

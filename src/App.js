@@ -9,7 +9,7 @@ import SideBar from './components/Sidebar';
 function App() {
   return (
     
-        <Router baseline="/portfolio">
+        <Router baseline="/">
         <Routes>
             <Route path="/" element={<Layout/>} /> 
             <Route path="/about/" element={<About/>} /> 
