@@ -9,9 +9,9 @@ import SideBar from './components/Sidebar';
 function App() {
   return (
     
-        <Router baseline="/portfolio">
+        <Router baseline="/">
         <Routes>
-            <Route path="/portfolio" element={<Layout/>} /> 
+            <Route path="/" element={<Layout/>} /> 
             <Route path="/portfolio/about/" element={<About/>} /> 
             <Route path="/portfolio/contact/" element={<Contact/>} /> 
             </Routes>
