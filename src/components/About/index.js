@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <SideBar/>
             <p>
-            Softare Developer In Training - CodeClan
+            Software Developer In Training - CodeClan
             <br></br>
             Engineering Background
             </p>
